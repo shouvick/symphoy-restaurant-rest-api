@@ -1,0 +1,8 @@
+fos_oauth_server:
+    db_driver: orm
+    client_class: App\Document\Client
+    access_token_class: App\Document\AccessToken
+    refresh_token_class: App\Document\RefreshToken
+    auth_code_class: App\Document\AuthCode
+    service:
+        user_provider: App\Provider\UserProvider
